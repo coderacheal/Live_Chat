@@ -1,16 +1,16 @@
 import socket
 import threading
+import datetime
 
 HEADER = 64
 PORT = 5050
 SERVER = socket.gethostbyname(socket.gethostname())
-ADDR = (SERVER, PORT)
 FORMAT = 'UTF-8'
 DISCONNECT_MESSAGE = '!DISCONNECT'
-
+DATE = datetime.datetime.today()
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server.bind(ADDR)
+server.bind((SERVER, PORT))
 
 def handle_client(conn, addr):
     print(f'[New CONNECTION] {addr} connected' )
@@ -31,9 +31,9 @@ def handle_client(conn, addr):
     conn.close()
 
 
-def start():
+def start_server():
     server.listen()
-    print(f'[LISTENING] Server is listening on {SERVER} ')
+    print(f'[Sent Date : {DATE}] Server is listening on {SERVER} ')
     while True:
         conn, addr = server.accept()
         thread = threading.Thread(target=handle_client, args=(conn, addr))
@@ -41,6 +41,4 @@ def start():
         print(f'[ACTIVE CONNECTIONS] {threading.activeCount() - 1}')
 
 
-
-print('[OPERATION] Server is starting...')
-start()
+start_server()
