@@ -1,8 +1,8 @@
 
-# LeaderBoard-Project
+# Live Chat
 # 📗 Table of Contents
 
-- [LeaderBoard-Project](#leaderboard-project)
+- [Live Chat](#live-chat)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Leader Board Project\] ](#-leader-board-project-)
   - [🛠 Built With ](#-built-with-)
@@ -23,7 +23,7 @@
   - [📝 License ](#-license-)
 
 
-# 📖 [Leader Board Project] <a name="about-project"></a>
+# 📖 [Live Chat] <a name="about-project"></a>
 
 
 **Live Chat** is a flask application that allows to or more users to connect over the web using web sockets for direct transmission
@@ -40,7 +40,7 @@
 
 ### Key Features <a name="Mobile Version of Portfolio"></a>
 
-- **Wire frame of the leader board**
+- **Website of the app**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
