@@ -11,9 +11,6 @@
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
@@ -27,9 +24,8 @@
 
 **Live Chat** is a flask application that allows to or more users to connect over the web using web sockets for direct transmission
 
-## 🛠 Built With <a name="HTML"></a>
 
-### 🖥️ Tech Stack <a name="CSS"></a>
+### 🖥️ Tech Stack <a name="tech-stack"></a>
 
 - Python
 - Flask
@@ -73,37 +69,9 @@ Clone this repository to your desired folder:
 
  - cd my-folder
 
- - git clone https://github.com/coderacheal/LeaderBoard-Project.git
+ - git clone https://github.com/coderacheal/Live_Chat.git
 
  - Once done, open the index.html file in live server
-
-
-
-### Install
-
-Install this project with:
-
-
-### Usage
-
-Because this project uses webpack as a bundler, to run the project, execute the following command:
-
-  <code>npm run start</code> 
-- OR
-  
-<code>npm start</code> 
-
-
-
-
-### Run tests
-
-To run tests, run the following command:
-
- - npx stylelint "**/*.{css,scss}" in your terminal
- - npx eslint . in your terminal
-
-
 
 ### Deployment
 
@@ -114,10 +82,7 @@ A web browser
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-## 👥 Authors <a name="authors"></a>
-
-
+## 👥 Author <a name="authors"></a>
 
 👤 **Racheal Appiah-kubi**
 
@@ -131,7 +96,7 @@ A web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Making API Calls**
+- **Embedding ML model**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,7 +110,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## ⭐️ Show your support <a name="support"></a>
